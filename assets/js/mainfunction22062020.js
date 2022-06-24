@@ -8,7 +8,7 @@ function serilestir2() {
     $.ajax({
         type: "POST",
         url: 'https://api.tikgram.ml/api/instagram',
-        data:"#text_username",
+        data:"form#text_username",
         async:true,
         crossDomain:true,
         success: function(data, status, xhr) {
