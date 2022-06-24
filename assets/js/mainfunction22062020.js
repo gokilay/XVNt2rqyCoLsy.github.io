@@ -7,7 +7,7 @@ function serilestir2() {
     return $("#yuk").html('<img style="height:70px;width:70px" src="/loader.webp" /> '), $("#StoryButton").attr("disabled", !0), $("#StoryButton").attr("title", "Loading..."), $("#StoryButton").css("cursor", "progress"),
     $.ajax({
         type: "POST",
-        url: 'https://api.tigkram.ml/api/instagram',
+        url: '//api.tigkram.ml/api/instagram',
         data:"#text_username",
         async:true,
         crossDomain:true,
